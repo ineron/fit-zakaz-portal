@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+    <message id="portal.newsactions">
+
+	<b>Добавлен новый пункт "Что нового" в меню Сервис </b><br/><br/>
+	<b>Представляем новинки 1-го квартала 2014 </b>&nbsp;30.10.2013 14:11
+	<br/><br/>
+	<img src="/images/action/min_1.jpg" onclick="try{hs.expand(this,{src:'/images/action/1.jpg'});}catch(e){}" title="min_1.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_2.jpg" onclick="try{hs.expand(this,{src:'/images/action/2.jpg'});}catch(e){}" title="min_2.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_3.jpg" onclick="try{hs.expand(this,{src:'/images/action/3.jpg'});}catch(e){}" title="min_3.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_4.jpg" onclick="try{hs.expand(this,{src:'/images/action/4.jpg'});}catch(e){}" title="min_4.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_5.jpg" onclick="try{hs.expand(this,{src:'/images/action/5.jpg'});}catch(e){}" title="min_5.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_6.jpg" onclick="try{hs.expand(this,{src:'/images/action/6.jpg'});}catch(e){}" title="min_6.jpg" class="highslide" border="0" width="578"/>
+	<img src="/images/action/min_7.jpg" onclick="try{hs.expand(this,{src:'/images/action/7.jpg'});}catch(e){}" title="min_7.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_8.jpg" onclick="try{hs.expand(this,{src:'/images/action/8.jpg'});}catch(e){}" title="min_8.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_9.jpg" onclick="try{hs.expand(this,{src:'/images/action/9.jpg'});}catch(e){}" title="min_9.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_10.jpg" onclick="try{hs.expand(this,{src:'/images/action/10.jpg'});}catch(e){}" title="min_10.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_11.jpg" onclick="try{hs.expand(this,{src:'/images/action/11.jpg'});}catch(e){}" title="min_11.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_12.jpg" onclick="try{hs.expand(this,{src:'/images/action/12.jpg'});}catch(e){}" title="min_12.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_21.jpg" onclick="try{hs.expand(this,{src:'/images/action/21.jpg'});}catch(e){}" title="min_21.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_22.jpg" onclick="try{hs.expand(this,{src:'/images/action/22.jpg'});}catch(e){}" title="min_22.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_23.jpg" onclick="try{hs.expand(this,{src:'/images/action/23.jpg'});}catch(e){}" title="min_23.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_24.jpg" onclick="try{hs.expand(this,{src:'/images/action/24.jpg'});}catch(e){}" title="min_24.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_25.jpg" onclick="try{hs.expand(this,{src:'/images/action/25.jpg'});}catch(e){}" title="min_25.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_26.jpg" onclick="try{hs.expand(this,{src:'/images/action/26.jpg'});}catch(e){}" title="min_26.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_27.jpg" onclick="try{hs.expand(this,{src:'/images/action/27.jpg'});}catch(e){}" title="min_27.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_28.jpg" onclick="try{hs.expand(this,{src:'/images/action/28.jpg'});}catch(e){}" title="min_28.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_29.jpg" onclick="try{hs.expand(this,{src:'/images/action/29.jpg'});}catch(e){}" title="min_29.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_30.jpg" onclick="try{hs.expand(this,{src:'/images/action/30.jpg'});}catch(e){}" title="min_30.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_31.jpg" onclick="try{hs.expand(this,{src:'/images/action/31.jpg'});}catch(e){}" title="min_31.jpg" class="highslide" border="0" width="580"/>
+	<img src="/images/action/min_32.jpg" onclick="try{hs.expand(this,{src:'/images/action/32.jpg'});}catch(e){}" title="min_32.jpg" class="highslide" border="0" width="580"/>
+    </message>
+</messages>

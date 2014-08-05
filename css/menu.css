@@ -1,0 +1,311 @@
+#menutop ul {margin: 0; padding: 0; list-style: none;}*/
+.menucont{padding:14px 11px 0;position: relative; z-index: 1; float: left;width:100%}
+
+/* Горизонтальное меню 
+#menu_top{list-style-type:none;display:inline-block;background:#FEFEFE;height:25px;line-height:28px;}
+#menu_top li{padding: 0 1px; float: left; font-weight: bold;width:auto; margin-top:-10000px;position: relative;}
+
+#menu_top li a{padding: 0 9px; height: 24px; line-height: 24px;background: #EFEFEF;text-decoration:none;text-align:center;color:#007C4F;position:relative;float:left;margin-top:10000px}
+
+#menu_top li a:hover, 
+#menu_top li a:focus, 
+#menu_top li a:active{background: url(/images/mt_bgo.gif) repeat-x left bottom;margin-right:0;}
+#menu_top li:first-child { margin-left: 0;}
+/* Раскрывающееся меню 
+#menu_top li ul{ border: 1px solid #D7D7D7; background: #EFEFEF; padding: 2px 0 3px; width: 142px; position: absolute; top: 29px; left: 29px; display: none;}
+#menu_top li ul li { padding: 0; margin: 0; position: absolute; left: 34px; top: -5px; width: 7px; height: 5px; background: url(i_i.png) no-repeat 0 -80px;}
+#menu_top li ul li a{float:none;display:block;margin:0;margin-right:-1px;}
+*/
+
+#menutop{ height:37px; display:block; padding:0; margin:20px auto;  border:1px solid; border-radius:5px;} 
+#menutop > ul {list-style:inside none; padding:0; margin:0;} 
+#menutop > ul > li {list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative; z-index:1} 
+#menutop > ul > li > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+#menutop > ul > li:first-child > a{border-radius:5px 0 0 5px;}
+#menutop > ul > li > a:after{float:left; content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px;  } /**/
+#menutop ul li.has-sub:hover > a:after{top:0; bottom:0;} 
+#menutop ul li.has-sub > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; } 
+#menutop ul li.has-sub:hover > a:before{top:19px;} 
+#menutop ul li.has-sub:hover > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px;  } /**/
+#menutop ul li.has-sub:hover > ul, 
+#menutop ul li.has-sub:hover > div{display:block;} 
+#menutop ul li > a:hover{background:#3f3f3f; border-color:#3f3f3f;}
+#menutop ul li > ul, 
+#menutop ul li > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px;  } /**/
+#menutop ul li > ul{width:200px;} 
+
+#menutop ul li > ul li{display:block; list-style:inside none; padding:0; margin:0; position:relative;} 
+#menutop ul li > ul li a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); } 
+
+#menutop, 
+#menutop > ul > li > ul > li a:hover{ background:#3E8C63; background:-moz-linear-gradient(top,  #3E8C63 0%, #30576e 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#3E8C63), color-stop(100%,#30576e)); background:-webkit-linear-gradient(top,  #3E8C63 0%,#30576e 100%); background:-o-linear-gradient(top, #3E8C63 0%,#30576e 100%); background:-ms-linear-gradient(top, #3E8C63 0%,#30576e 100%); background:linear-gradient(top, #3E8C63  0%,#30576e 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E8C63', endColorstr='#30576e',GradientType=0 ); } 
+#menutop{border-color:#1b313d;} 
+
+#menutop > ul > li > a{border-right:1px solid #1b313d; color:#fff;} 
+#menutop > ul > li > a:after{border-color:#6696bd;} 
+#menutop > ul > li > a:hover{background:#436f93;} 
+
+/*For span subdivision*/
+
+#menutop > ul > li > span{list-style:inside none; padding:0; margin:0; float:left; display:block; position:relative;} 
+#menutop > ul > li > span > a{ outline:none; display:block; position:relative; padding:12px 20px; font:bold 13px/100% Arial, Helvetica, sans-serif; text-align:center; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.4); } 
+#menutop > ul > li > span:first-child > a{border-radius:0px 0 0 0px;}
+#menutop > ul > li > span > a:after{float:left; content:''; position:absolute; border-right:1px solid; top:-1px; bottom:-1px; right:-2px;  }/**/
+
+#menutop ul > li.has-sub:hover > span > a:after{top:0; bottom:0;} /**/
+#menutop ul > li.has-sub > span > a:before{ content:''; position:absolute; top:18px; right:6px; border:5px solid transparent; border-top:5px solid #fff; }/*Рисует стрелочку вниз*/ 
+#menutop ul > li.has-sub:hover > span > a:before{top:19px;}/**/
+#menutop ul > li.has-sub:hover > span > a{ background:#3f3f3f; border-color:#3f3f3f; padding-bottom:13px; padding-top:13px; top:-1px;  } /**/
+#menutop ul > li.has-sub:hover > span > ul, 
+#menutop ul > li.has-sub:hover > span > div{display:block;}/*Инициирует выпадение списка*/ 
+#menutop ul > li > span > a:hover{background:#3f3f3f; border-color:#3f3f3f;}/*Устанавливает серый цвет подложки при выделении подменю*/
+#menutop ul > li > span > ul, 
+#menutop ul > li > span > div{ display:none; width:auto; position:absolute; top:38px; padding:10px 0; background:#3f3f3f; border-radius:0 0 5px 5px;  }/*Прячет блоки подменю*/ /**/
+#menutop ul > li > span > ul{width:200px;}/*Ограничивает подлохку выпадающего меню*/ 
+#menutop ul > li > span > ul > li  {display:block; list-style:inside none; padding:0; margin:0; position:relative;}/**/
+#menutop ul > li > span > ul > li  a{ outline:none; display:block; position:relative; margin:0; padding:8px 20px; font:10pt Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-shadow:1px 1px 0 rgba(0,0,0, 0.5); }/*Устанавливает формат блока выпадающего списка*/ 
+#menutop, #menutop > ul > li > span > ul > li a:hover{ background:#3E8C63; background:-moz-linear-gradient(top,  #3E8C63 0%, #30576e 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#3E8C63), color-stop(100%,#30576e)); background:-webkit-linear-gradient(top,  #3E8C63 0%,#30576e 100%); background:-o-linear-gradient(top, #3E8C63 0%,#30576e 100%); background:-ms-linear-gradient(top, #3E8C63 0%,#30576e 100%); background:linear-gradient(top,  #3E8C63 0%,#30576e 100%); filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E8C63', endColorstr='#30576e',GradientType=0 ); }/*Создает планку курсора для подменю*/ 
+#menutop{border-color:#1b313d;} 
+#menutop > ul > li > span > a{border-right:1px solid #1b313d; color:#fff;} 
+#menutop > ul > li > span > a:after{border-color:#6696bd;} 
+#menutop > ul > li > span > a:hover{background:#436f93;} 
+
+
+.navbar .navbar-inner .container {
+	margin: 0 auto;
+	width: 1180px;
+	padding: 0 10px;
+}
+
+.navbar-green .navbar-inner {
+   border: 1px solid #1b313d;
+   border-right: 0;
+   border-left: 0;
+   border-radius: 0;
+   box-shadow: 0 2px 5px rgba(0,0,0,.3);
+   background:#3E8C63;
+   background:-moz-linear-gradient(top,  #3E8C63 0%, #30576e 100%); 
+   background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#3E8C63), color-stop(100%,#30576e)); 
+   background:-webkit-linear-gradient(top,  #3E8C63 0%,#30576e 100%); 
+   background:-o-linear-gradient(top, #3E8C63 0%,#30576e 100%); 
+   background:-ms-linear-gradient(top, #3E8C63 0%,#30576e 100%); 
+   background:linear-gradient(top,  #3E8C63 0%,#30576e 100%); 
+   filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E8C63', endColorstr='#30576e',GradientType=0 ); 
+}
+.navbar-green .dropdown-menu li > a {
+	cursor: pointer;
+}
+.navbar-green .nav li > .dropdown-toggle.active {
+	color: #fff;
+	background-color: #0081c2;
+}
+.navbar-green .brand,
+.navbar-green .nav > li > a {
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(0,0,0, 0.4);
+	font-weight: bold;
+	font-size: 13px;
+	border-right: 1px solid #1b313d;
+	position: relative;
+}
+.navbar-green .brand:after,
+.navbar-green .nav > li > a:after {
+	float: left;
+	content: '';
+	position: absolute;
+	border-right: 1px solid #6696bd;
+	top: 0px;
+	bottom: 0px;
+	right: -2px;
+}
+.navbar .nav.pull-right  > li > a {
+	border-right: none;
+}
+.navbar .nav.pull-right  > li > a:after {
+	display: none;
+}
+
+.navbar-green .brand:hover,
+.navbar-green .nav > li > a:hover {
+    color: #ffffff;
+}
+
+.navbar-green .brand {
+    color: #FFF3B3;
+}
+
+.navbar-green .navbar-text {
+    color: #999999;
+}
+
+.navbar-green .nav > li > a:focus,
+.navbar-green .nav > li > a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-green .nav .active > a,
+.navbar-green .nav .active > a:hover,
+.navbar-green .nav .active > a:focus {
+    color: #ffffff;
+    background-color: #3f3f3f;
+}
+
+.navbar-green .navbar-link {
+    color: #999999;
+}
+
+.navbar-green .navbar-link:hover {
+    color: #ffffff;
+}
+
+.navbar-green .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+.navbar .nav > li:hover > a ,
+.navbar-green .nav li.dropdown.open > .dropdown-toggle,
+.navbar-green .nav li.dropdown.active > .dropdown-toggle,
+.navbar-green .nav li.dropdown.open.active > .dropdown-toggle {
+    color: #ffffff;
+    background-color: #3f3f3f;
+}
+
+.navbar-green .nav li.dropdown > a:hover .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.navbar-green .nav li.dropdown > .dropdown-toggle .caret {
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.navbar-green .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-green .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-green .nav li.dropdown.open.active > .dropdown-toggle .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+
+.navbar-green .navbar-search .search-query {
+    color: #ffffff;
+    background-color: #515151;
+    border-color: #111111;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.15);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+
+.navbar-green .navbar-search .search-query:-moz-placeholder {
+    color: #cccccc;
+}
+  
+.navbar-green .navbar-search .search-query:-ms-input-placeholder {
+    color: #cccccc;
+}
+
+.navbar-green .navbar-search .search-query::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+.navbar-green .navbar-search .search-query:focus,
+.navbar-green .navbar-search .search-query.focused {
+    padding: 5px 15px;
+    color: #333333;
+    text-shadow: 0 1px 0 #ffffff;
+    background-color: #ffffff;
+    border: 0;
+    outline: 0;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+                             
+.navbar-green .btn-navbar {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #0e0e0e;
+    *background-color: #040404;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+    background-image: -webkit-linear-gradient(top, #151515, #040404);
+    background-image: -o-linear-gradient(top, #151515, #040404);
+    background-image: linear-gradient(to bottom, #151515, #040404);
+    background-image: -moz-linear-gradient(top, #151515, #040404);
+    background-repeat: repeat-x;
+    border-color: #040404 #040404 #000000;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff151515', endColorstr='#ff040404', GradientType=0);
+    filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+.navbar-green .btn-navbar:hover,
+.navbar-green .btn-navbar:active,
+.navbar-green .btn-navbar.active,
+.navbar-green .btn-navbar.disabled,
+.navbar-green .btn-navbar[disabled] {
+    color: #ffffff;
+    background-color: #040404;
+    *background-color: #000000;
+}
+
+.navbar-green .btn-navbar:active,
+.navbar-green .btn-navbar.active {
+    background-color: #000000 \9;
+}
+
+.navbar .nav > li:hover > .dropdown-menu {
+	display: block !important;
+	top: 38px;
+}
+.navbar .nav > li:hover > .dropdown-menu  ul {
+	display: none !important;
+}
+.navbar .nav > li:hover > .dropdown-menu  > li.dropdown-submenu:hover > ul{
+	display: block !important;
+	bottom: auto !important;
+	right: auto !important;
+	top: 0 !important;
+	left: 100% !important;
+	
+}
+.navbar-green .open > .dropdown-menu {
+	display: none;
+}
+  
+/* Поиск в меню */
+.navbar-green .navbar-form {
+	position: relative;
+}
+.navbar-green .navbar-form input.search-query {
+	padding-right: 24px;
+	padding-left: 26px;
+	width: 200px;
+}
+.navbar-form .search-btn {
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 13px;
+	left: 8px;
+	background: url("search-btn.png") no-repeat;
+	cursor: pointer;
+}
+.navbar-form .search-del {
+	position: absolute;
+	top: 12px;
+	right: 7px;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	background: url("search-icon-delete.png") no-repeat;
+}
+ 
+

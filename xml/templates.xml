@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+
+
+    <message id="Wt.Auth.template.login" >
+	    <div class="header">
+		<div class="header_bg">
+		    <div class="centered" style = "width:40em; margin: 0px auto; ">
+			<div class="logos"><img src="/images/logos.png" alt="logo"/></div>
+		    </div>
+		</div>
+	    </div> 
+        <form  id="loginform" action="/login/" class="Wt-form Wt-auth-login" >
+	    <h2>${tr:Wt.Auth.login-form-title}</h2>
+	    <p>${tr:Wt.Auth.login-form-info}</p>
+
+	    <div class="Wt-fields">
+		${<if:passwords>}
+		<label for="${id:user-name}">${user-name-label}
+        	    ${user-name-info id="user-name" class="Wt-info"}
+		</label>
+		${user-name}
+
+		<label for="${id:password}">${tr:Wt.Auth.password}
+		    ${password-info class="Wt-info"}
+		</label>
+		${password}
+
+		${<if:remember-me>}
+
+		<label for="${id:remember-me}">${tr:Wt.Auth.remember-me}
+		    <span class="Wt-info">${remember-me-info}</span>
+		</label>
+		${remember-me}
+
+		${</if:remember-me>}
+
+		${</if:passwords>}
+
+		${<if:terminal>}
+		    <label for="${id:terminal}">${tr:Wt.Auth.terminal}
+		        <span class="Wt-info">${tr:Wt.Auth.terminal-info}</span>
+		    </label>
+		${terminal}
+		${</if:terminal>}
+		
+	    </div>
+	    ${<if:oauth>}
+	    <div class="Wt-col-right">
+		<h3>Or use:</h3>
+		${icons}
+	    </div>
+	    ${</if:oauth>}
+	    <div class="Wt-buttons">
+		${login  style="width:100px"}
+	    </div>
+	    <div class="Wt-buttons">
+		${lost-password} ${sep} ${register}
+	    </div>
+	    <div>
+	     Внимание !
+	     Для коректной работы программы настоятельно рекомендуется использовать браузеры:Google Chrome или Mozilla Firefox
+	     <!--<a href="https://www.google.ru/intl/ru/chrome/browser/">Google Chrome</a> или <a href="https://www.mozilla.org/ru/firefox/new/">Mozilla Firefox</a>-->
+	    </div>
+    	    <div>
+    		Для выявления ошибок связаный с работой WEB Портала убедительная просьба. Если при работе, происходит перегрузка web страницы, просьба прислать письмо <a href="mailto:ineron@me.com?Subject=Ошибки%20WEB%20портала" target="_top">разработчикам</a>. В письме укажите Ваш логин регион и какие действия привели к перегрузке страницы. Это позволит нам быстрее избавится от ошибок. Спасибо :)<br/>
+    		Если Вам не удается войти, просьба собщить об этом <a href="mailto:luban@infotex.org?Subject=Ошибки%20входа%20WEB%20портала" target="_top">Администратору</a>. Указав свой логин и регион
+	    </div>
+	</form>
+	<div>
+	</div>
+    </message>
+
+
+	<message id="Wt.Auth.template.logged-in">
+
+	    <!--<script src="/shared/bootstrap-carousel.js"></script>-->
+
+
+			    	    		    				    	
+		<div class="Wt-auth-logged-in">
+			<!--Logged in as <b>${user-name}</b> | ${logout}-->
+		        <!--${languages}-->
+
+	    <div class="header_bg">
+		<div id="top_content" class="centered">
+		    <div class="logos">
+			<!--${header_logos}-->
+			<img src="/images/logos.png" alt="Fit"/>
+		    </div>
+		</div>
+	    </div>
+	        
+		</div>
+	</message>
+
+
+    <message id="template.content.header">
+        ${languages}
+	<div class="header_bg">
+	    <div id="top_content" class="centered">
+	        ${header_logos}
+
+		<div class="info_box">
+		    <div class="u_name">
+			<strong>
+			    <!--${username}-->
+			    <br>
+			        <span class="exit">
+					${logout}
+				</span>
+			    </br>
+			</strong>
+		    </div>
+		    <!--${right_top_menu}-->
+		    <ul class="view_cart">
+			<li class="u_cart">
+			    <ins class="i"></ins>
+			    ${current_order}
+			</li>
+			<li class="u_mess">
+			    <ins class="i"></ins>
+			    ${messages}
+			</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>
+    </message>
+	
+	<message id="template.content.body">
+		<div id="body_wrapper" class="wrapper">
+			${content}
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+			<br></br>
+		</div>
+	</message>
+	
+	<message id="template.content.mainpage">
+		<div id="main_wrapper" class ="body"><!--class="body"-->
+			<div id="main_content"  class="centered"><!--class="centered"-->
+				<div id="menutop">
+					${menu}
+					${sidebar}
+				</div>
+				<!--menutop -->
+				
+				<div class="mainclear clear_inside" style="z-index:-1">
+					<div class="maincontent">
+						<div id = "content" class="content">
+							<div class="bodycontent clear_inside" >
+								${contents}
+							</div>
+						</div>
+						<!--content-->
+					</div>
+					${rightside}
+				</div>
+			</div>
+			<!--Centred-->
+		</div>
+	</message>
+		
+	<message id="template.content.header_">
+				${languages}
+				<div class="header_bg">
+					<div id="top_content" class="centered">
+						<div class="logos">
+							<a href="/KF" title="KF">
+								<img src="/images/logo_1.png" alt="KF"/>
+								</a>
+							<img src="/images/logo_2.jpg" alt="Хортъ"/>
+							<a href="/FIT" title="FIT">
+								<img src="/images/logo_3.jpg" alt="FIT"/>
+								</a>
+							<img src="/images/logo_4.jpg" alt="Дельта"/>
+							<img src="/images/logo_5.png" alt="Калита"/>
+							</div>
+						<div class="info_box">
+							<div class="u_name">
+								<strong>
+									<!--${username}-->
+									<br>
+										<span class="exit">
+											${logout}<!--<a href="/user?_=logout">Выход <ins class="i"></ins></a>-->
+											</span>
+										</br>
+									</strong>
+								
+								</div>
+							<!--${right_top_menu}-->
+							
+							<ul class="view_cart">
+								<li class="u_cart">
+									<ins class="i"></ins>
+									${current_order}<!--<a href="/user?_=shipping">Журнал заказов и отгрузок</a>-->
+									</li>
+								<li class="u_mess">
+									<ins class="i"></ins>
+									${messages}<!--<a href="/user?_=messages">Cообщения</a>-->
+									</li>
+								</ul>
+							</div>
+						</div>
+			<!--header-->
+			<div id="main_wrapper" class ="body"><!--class="body"-->
+				<div id="main_content"  class="centered"><!--class="centered"-->
+					<div id="cssmenu">
+						${menu}
+						${sidebar}
+						</div>
+					<!--menutop -->
+					
+					<div class="mainclear clear_inside">
+						<div class="maincontent">
+							<div id = "content" class="content">
+								<div class="bodycontent clear_inside">
+									${contents}
+									</div>
+								</div>
+							<!--content-->
+							</div>
+						${rightside}
+						</div>
+					</div>
+				<!--Centred-->
+				</div>
+			<!--Body-->
+			</div>
+		<!--wrapper-->
+		<div id="footer" class="footer">
+			<div id="footer_bg" class="footer_bg">
+				<div id="footer_centered" class="centered">
+					<div id="call_back" class="call_back">
+						<a href="/user?mode=messages" class="corner_kick">
+							<ins class="i1"></ins>
+							<ins class="i2"></ins>
+							<ins class="i3"></ins>
+							<ins class="i4"></ins>
+							обратная связь
+							</a>
+						</div>
+					</div>
+				</div>
+			<script type="text/javascript">
+			    // <![CDATA[
+				var _ver_id = 26909;
+				var _shop_id = 0;
+				_shop_ts = ' ';
+				_shop_dot = ',';
+				var S3Shop = {
+				    customFields: null,
+				    customFieldNames: null		
+				};
+				$(function() {
+				    Infotex.cookie = false;
+				});
+			    // ]]>
+		    </script>
+
+	<script type="text/javascript">
+	hs.graphicsDir = "/shared/highslide-4.1.9/graphics/";
+	hs.outlineType = null;
+	hs.showCredits = false;
+	hs.lang={cssDirection:"ltr",loadingText:"Загрузка...",loadingTitle:"Кликните чтобы отменить",focusTitle:"Нажмите чтобы перенести вперёд",fullExpandTitle:"Увеличить",fullExpandText:"Полноэкранный",previousText:"Предыдущий",previousTitle:"Назад (стрелка влево)",nextText:"Далее",nextTitle:"Далее (стрелка вправо)",moveTitle:"Передвинуть",moveText:"Передвинуть",closeText:"Закрыть",closeTitle:"Закрыть (Esc)",resizeTitle:"Восстановить размер",playText:"Слайд-шоу",playTitle:"Слайд-шоу (пробел)",pauseText:"Пауза",pauseTitle:"Приостановить слайд-шоу (пробел)",number:"Изображение %1/%2",restoreTitle:"Нажмите чтобы посмотреть картинку, используйте мышь для перетаскивания. Используйте клавиши вперёд и назад"};
+	</script>
+					
+
+			</div>
+		<!--footer-->
+		</message>
+	
+	<message id="template.catalog.mainpage">
+    <!--<div id = "body" class="body">-->
+			<div class="centered">
+			  <div class="mainclear clear_inside">
+        ${main_content}
+        ${leftside}
+	    	${rightside}
+
+	    	</div>
+  		</div>
+		<!--</div>-->
+	</message>
+	
+	<message id="template.catalog.body">
+				  
+					  <div  class="content">
+						  <div  class="bodycontent clear_inside">
+                ${nav_panel.u}
+                <!--<h1>Каталог</h1>-->
+                ${catalog_content}
+                <!--<div class="preview">
+                    <a href="/shop?mode=cart" class="corner_kick" onclick="$('#form_f').submit();">
+                        <ins class="i1"></ins>
+                        <ins class="i2"></ins>
+                        <ins class="i3"></ins>
+                        <ins class="i4"></ins>
+                        Предварительный просмотр заказа
+                    </a>
+                </div>-->
+                ${nav_panel.d}
+                <div class="preview">
+                ${previewbtn}
+                </div>
+             </div>
+            </div>
+          
+	</message>
+	
+	<!--<a class="highslide" onclick="try{hs.expand(this,{src:'http://nextgen.fit-zakaz.ru/images/${imgaename}'});}catch(e){}">-->
+	<!--<a class="highslide" onclick="hs.expand(this,{src:'http://nextgen.fit-zakaz.ru/images/${imgaename}'});">-->
+	<!--<a class="highslide" onclick="try{hs.expand(this,{src:'http://nextgen.fit-zakaz.ru/images/${imgaename}'});}catch(e){}">-->
+
+	
+    <message id="portal.catalog.cell_image">
+	<a class="highslide" onclick="hs.expand(this,{src:'/images/${imgaename}'});">
+	    <img src="/images/catalog/${imgaename}"/>
+	</a>
+    </message>
+    
+    <message id="portal.catalog.cell_image_old">
+	<div class="corner_kick">
+    	    <div class="pic">
+    		<a class="highslide" href="/d/26909/d/01003.jpg" onclick="return hs.expand(this);">
+        	    ${image}
+    		</a>
+    	    </div>
+	</div>
+    </message>
+	
+	
+    <message id="portal.catalog.rightside">
+	${search.form}
+	${search.pewview.btn}
+        <h2>Разделы каталога</h2>
+	${right.menu}	
+    </message>
+
+
+
+  <message id="portal.catalog.description">
+    <tr>
+      <td class="cell_1"></td>
+      <td colspan="6" class="txt"><b>{1}</b><br>{2}</br></td>
+    </tr>
+  </message>
+  
+	<message id="template.login.header">
+		<div class="header">
+			<div class="header_bg">
+				<div class="centered">
+					<div class="logos"><img src="/images/logos.png" alt="logo"/></div>
+				</div>
+			</div>
+		</div>
+	</message>
+	
+	<message id="portal.intro">
+		<h1>Личный кабинет</h1>
+		<h2 class="change_h">Ваши координаты:</h2>
+		<p class="change">${userinfo.change}</p>
+		<div class="bodycontent clear_inside">
+		<table class="table table-bordered table-hover">
+			<tr>
+				<th>Организация:</th>
+				<td><strong>{1}</strong></td>
+				</tr>
+			<tr>
+				<th>Контактное лицо:</th>
+				<td><strong>{2}</strong></td>
+				</tr>
+			<tr>
+				<th>Телефон:</th>
+				<td>{3}</td>
+				</tr>
+			<tr>
+				<th>E-mail:</th>
+				<td>{4}</td>
+				</tr>
+			</table>
+		
+		<h2>Текущее состояние дел:</h2>
+		<table class="table table-bordered table-hover">
+			<tr>
+				<th>Договор :</th>
+				<td>{5}</td>
+				</tr>
+			<tr>
+				<th>Условия работы :</th>
+				<td>{6}</td>
+				</tr>
+			<tr>
+				<th>Просроченная задолженность :</th>
+				<td>
+					<div class="overdue">Просрочено <strong>{7} дней</strong></div>
+					{8} <br/>${userinfo.mutual}</td>
+				</tr>
+			<tr>
+				<th>Текущая задолженность :</th>
+				<td>{9}</td>
+				</tr>
+			<tr>
+				<th>Долги по непропечатанным документам :</th>
+				<td>{10}</td>
+				</tr>
+			<tr>
+				<th>Последняя заявка:</th>
+				<td>{11}${userinfo.lastorder}</td>
+				</tr>
+			<tr>
+				<th>Последняя отгрузка:</th>
+				<td>{12}${userinfo.lastupload}</td>
+				</tr>
+			</table>
+		</div>
+		<div id="update_info" class="update_info clear_inside">
+			<p class="update">${userinfo.update}</p>
+			<p>*Чтоб посмотреть свежие данные на текущий момент, <br/> рекомендуется нажать кнопку "Обновить данные"</p>
+		</div>
+		
+	</message>
+	
+
+	<message id="portal.introduction">
+		<h1>Личный кабинет</h1>
+		<h2 class="change_h">Ваши координаты:</h2>
+		<p class="change">${userinfo.change}</p>
+		<div class="bodycontent clear_inside">
+		<table class="table table-bordered table-hover">
+			<tr>
+				<th>Организация:</th>
+				<td><strong>${organization}</strong></td>
+				</tr>
+			<tr>
+				<th>Контактное лицо:</th>
+				<td><strong>${person}</strong></td>
+				</tr>
+			<tr>
+				<th>Телефон:</th>
+				<td>${phone}</td>
+				</tr>
+			<tr>
+				<th>E-mail:</th>
+				<td>${email}</td>
+				</tr>
+			</table>
+		
+		<h2>Текущее состояние дел:</h2>
+		<table class="table table-bordered table-hover">
+			<tr>
+				<th>Договор :</th>
+				<td>${ofert}</td>
+				</tr>
+			<tr>
+				<th>Условия работы :</th>
+				<td>${conditions}</td>
+				</tr>
+			<tr>
+				<th>Просроченная задолженность :</th>
+				<td>
+					<div class="overdue">Просрочено <strong>${daycount} дней</strong></div>
+					${currency} <br/>${userinfo.mutual}</td>
+				</tr>
+			<tr>
+				<th>Текущая задолженность :</th>
+				<td>${mutual}</td>
+				</tr>
+			<tr>
+				<th>Долги по непропечатанным документам :</th>
+				<td>${printed}</td>
+				</tr>
+			<tr>
+				<th>Последняя заявка:</th>
+				<td>${lastorder}${userinfo.lastorder}</td>
+				</tr>
+			<tr>
+				<th>Последняя отгрузка:</th>
+				<td>${lastupload}${userinfo.lastupload}</td>
+				</tr>
+			</table>
+		</div>
+		<div id="update_info" class="update_info clear_inside">
+			<p class="update">${userinfo.update}</p>
+			<p>*Чтоб посмотреть свежие данные на текущий момент, <br/> рекомендуется нажать кнопку "Обновить данные"</p>
+		</div>
+		
+	</message>
+
+	
+	<message id="portal.operators">
+		<div class="bodycontent clear_inside">
+		<table class="table table-bordered table-hover">
+			<tbody>
+				<tr>
+					<th>Контактное лицо:</th>
+					<td><strong>{1}</strong></td>
+				</tr>
+				<tr>
+					<th>Телефон:</th>
+					<td>
+						{2}</td>
+				</tr>
+				<tr>
+					<th>E-mail:</th>
+					<td>
+						{3}</td>
+				</tr>
+				<tr>
+					<th>Skype:</th>
+					<td>
+						{4}</td>
+				</tr>
+				<tr>
+					<th>icq:</th>
+					<td>{5}</td>
+				</tr>
+				<tr>
+					<th>Город:</th>
+					<td>
+						{6}</td>
+				</tr>
+			</tbody>
+		</table>	
+		</div>
+	</message>
+	
+	<message id="portal.rightside">
+		<!--<div id="rightside" class="rightside">-->
+		<!--<div id="block_cover"  class="block_cover">-->
+		${catalog}
+		<!--<div class="title">${title}<a href="/shop">Перейти в каталог</a> для составления заказа</div>-->
+		<!--<div class="body">${body}<a href="/shop"><img src="/images/oblojki.png" alt="pic" /></a></div>-->
+		<!--</div>-->
+		<!--</div>-->
+	</message>
+	
+	<message id="catalog.table.header">
+    <table class="cat_tab" cellpadding="0" cellspacing="0">
+      <tbody>
+        <tr class="col_title">
+          <td width="76" class="cell_1"></td>
+          <td width="38" class="cell_2">Код по каталогу</td>
+          <td width="27" class="cell_3">Доп. инф-я</td>
+          <td width="50" class="cell_4">Описание<br/>товара</td>
+          <td width="35" class="cell_5">Упак-ка<br/>Коробка</td>
+          <td width="30" class="cell_6">Цена в руб.</td>
+          <td width="35" class="cell_7">Заказ по шт.</td>
+        </tr>
+        {1}
+     </tbody>
+    </table>
+  </message>
+  
+  <message id="catalog.table.title.1">
+    <tr class="tab_name level1"><th colspan="7">{1}</th></tr>
+  </message>
+
+  <message id="catalog.table.title.2">
+    <tr class="tab_name level2"><th colspan="7">{1}</th></tr>
+  </message>
+
+  <message id="catalog.table.title.3">
+    <tr class="tab_name level3"><th colspan="7">{1}</th></tr>
+  </message>
+
+  <message id="catalog.table.title.4">
+    <tr class="tab_name level4"><th colspan="7">{1}</th></tr>
+  </message>
+  
+  <message id="catalog.table.title.brush_name">
+    <tr class="brush_name"><td colspan="7">{1}</td></tr>
+  </message>
+
+  
+  <message id="catalog.table.row.first">
+    <tr class="row_t">
+      <td class="cell_1">
+        <div class="corner_kick">
+          <div class="pic">
+            <a class="highslide" href="/images/{1}" onclick="return hs.expand(this);">
+              <img src="/images/{1}" alt=""/>
+            </a>
+          </div>
+        </div>
+      </td>
+      <td class="cell_2">
+        <input type="hidden" class="prices" name="prices[]" value="{7}"/>
+        <input type="hidden" class="product_ids" name="product_ids[]" value="1797400"/>{2}
+      </td>
+      <td class="cell_3 {8}">
+        <div>{3}</div>
+      </td>
+      <td class="cell_4">
+        <div>{4}</div>
+      </td>
+      <td class="cell_5">
+        <div>{5}</div>
+      </td>
+      <td class="cell_6">{6}</td>
+      <td class="cell_7">
+        <span class="amount">
+          <!--<a class="dec">&lt;</a>-->
+          <input type="text" name="amounts[]" value="0" tabindex="1" alt=""/>
+          <!--<a class="inc">&gt;</a>-->
+        </span>
+        <span id="res_1797400" style="display:none;">0</span>
+      </td>
+    </tr>
+  </message>
+  
+  <message id="catalog.table.row">
+    <tr>
+      <td class="cell_1"></td>
+      <td class="cell_2">
+        <input type="hidden" class="prices" name="prices[]" value="{7}"/>
+        <input type="hidden" class="product_ids" name="product_ids[]" value="1816000"/>{2}
+      </td>
+      <td class="cell_3 {8}"><div>{3}</div></td>
+      <td class="cell_4"><div>{4}</div></td>
+      <td class="cell_5"><div>{5}</div></td>
+      <td class="cell_6">{6}</td>
+      <td class="cell_7">
+        <span class="amount">
+          <!--<a class="dec">&lt;</a>-->
+          <input type="text" name="amounts[]" value="0" tabindex="2" alt=""/>
+          <!--<a class="inc">&gt;</a>-->
+        </span>
+        <span id="res_1816000" style="display:none;">0</span>
+      </td>
+    </tr>
+  </message>
+  
+    <message id="order.details.cart.total">
+	<small>Итого:</small><span id="cart_total">{1}</span>
+    </message>
+    
+    <message id="order.details.cart.total.amount">    
+	<span id="cart_total_amount">{1}</span> поз.
+    </message>
+
+
+    <message id="portal.import.order">    
+Здесь Вы можете импортировать заказ в формате CSV. Файл такого формата можно создать, например, в 1С, Microsoft Excel, OpenOffice, LibreOffice или в системе управления базой данных.
+<br/>
+<b>Разделитель полей:</b>
+<br/>
+${import.order.splitter}
+<br/>
+<br/>
+<b>Кодировка файла:</b>
+<br/>
+${import.order.codepage}
+Если Вы не знаете для чего это, просто оставьте без изменений. 
+<br/>
+<br/>
+<b>Файл:</b>
+<br/>
+${import.order.file}
+<br/>
+<br/>
+<br/>
+${import.order.button}
+<br/>
+<br/>
+<h1>Инструкция</h1>
+
+Подготовьте файл CSV в кодировке Windows-1251 с разделителем полей, выбранным в форме выше. Файл должен описывать таблицу с данными товаров. В первом столбце должны идти коды товаров, во втором — количество товаров для заказа.
+
+Microsoft Excel: Файл - Сохранить как - Выбрать тип файла "CSV"(если разделитель полей — ";") или "Текстовые файлы с разделителями табуляции"(если разделитель полей — знак табуляции).
+
+Open Office Calc / LibreOffice Calc: Файл - Сохранить как - Выбрать тип файла "Текст CSV (.csv)". В окне выбрать кодировку Windows-1251, Разделитель поля {TAB} или ";", разделитель текста — любой.
+<br/>
+<br/>
+<a href="/images/ImportFromExcel.pdf" target="new window" type="application/pdf">Открыть подробную инструкцию в формате PDF</a>
+<!--${import.order.instuction}-->
+  
+    </message>
+
+    <message id="portal.import.price">    
+Здесь Вы можете импортировать заказ в формате CSV. Файл такого формата можно создать, например, в 1С, Microsoft Excel, OpenOffice, LibreOffice или в системе управления базой данных.
+<br/>
+<b>Разделитель полей:</b>
+<br/>
+${import.order.splitter}
+<br/>
+<br/>
+<b>Файл:</b>
+<br/>
+${import.order.file}
+<br/>
+<br/>
+<br/>
+${import.order.button}
+<br/>
+<br/>
+<h1>Инструкция</h1>
+
+Подготовьте файл CSV в кодировке Windows-1251 с разделителем полей, выбранным в форме выше. Файл должен описывать таблицу с данными товаров. В первом столбце должны идти коды товаров, во втором — цена за еденицу товара.
+
+Microsoft Excel: Файл - Сохранить как - Выбрать тип файла "CSV"(если разделитель полей — ";") или "Текстовые файлы с разделителями табуляции"(если разделитель полей — знак табуляции).
+
+Open Office Calc / LibreOffice Calc: Файл - Сохранить как - Выбрать тип файла "Текст CSV (.csv)". В окне выбрать кодировку Windows-1251, Разделитель поля {TAB} или ";", разделитель текста — любой.
+    </message>
+
+
+	<message id="portal.messages.filedate">
+	    <div class = "in">{1}</div>
+	</message>
+	
+	
+	<!--
+		<message id="order_journal">Журнал отгрузок и заказов</message>
+		<message id="download">Загрузка</message>
+		<message id="community">Поддержка</message>
+		<message id="other-language">!C++</message>
+		
+		<message id="hello-world">Здравствуй, мир!</message>
+		<message id="charts">Графики (диаграммы)</message>
+		<message id="wt-homepage">Домашняя страница Wt</message>
+		<message id="treeview">Класс Treeview</message>
+		<message id="git">Обозреватель Git</message>
+		<message id="chat">Чат</message>
+		<message id="mail-composer">Редактор писем</message>
+		<message id="hangman">Виселица</message>
+		<message id="widget-gallery">Галерея виджетов</message>
+		-->
+	
+	<!--ul class="menutop clear_inside">
+		<li><a href="/">Личный кабинет</a></li>
+		<li><a href="/operator">Ваш оператор</a></li>
+		<li><a href="/reports" class="normal">Отчеты </a>
+		<ul style="top: 29px; left: 30px; display: none; ">
+		<li><a href="/?_=/reports">Взаиморасчеты</a></li>
+		<li><a href="/?_=/shipping">Журнал заказов и отгрузок</a></li>
+		<li><a href="/?_=/debt">Структура долга</a></li>
+		<li><a href="/?_=;prodazhi_nomenklatury">Продажи номенклатуры</a></li>
+		</ul></li>
+		<li><a href="/info">Полезная информация</a>
+		<ul>
+		<li><a href="/instuctions">Адреса сервисных центров по электроинструменту</a></li>
+		<li><a href="/user?_=import">Загрузка файла из Excel (Видеоинструкция)</a></li>
+		</ul></li>
+		<li><a href="/actions">Акции и Последние новости</a></li>
+		</ul>
+		-->
+	
+</messages>

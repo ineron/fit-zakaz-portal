@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+
+  <message id="Wt.Auth.terminal">Режим терминала</message>
+
+  <message id="Wt.Auth.login-form-title">Авторизация</message>
+  <message id="Wt.Auth.terminal-info">Вход в режиме теминала покупателя</message>
+  
+  <message id="Wt.Auth.user-name">Имя пользователя</message>  
+  <message id="Wt.Auth.user-name-info">Введите имя пользователя</message>
+  <message id="Wt.Auth.password">Пароль</message>   
+  <message id="Wt.Auth.password-info">Введите пароль</message>
+
+  <message id="Wt.Auth.remember-me">Запомнить меня</message>
+  <message id="Wt.Auth.remember-me-info.days">
+  </message>
+  <message id="Wt.Auth.remember-me-info.weeks">
+  </message>
+  <message id="Wt.Auth.lost-password">Напомнить пароль</message>
+  <message id="Wt.Auth.login">Войти</message>
+  <message id="Wt.Auth.logout">Выйти</message>
+  <message id="Wt.Auth.throttle-retry">Повторять кажые {1}</message>
+
+  <message id="search.form.label">Поиск по коду/наименованию</message> 
+  <message id="search.preview.button"><ins class="i1"></ins><ins class="i2"></ins><ins class="31"></ins><ins class="i4"></ins>Предварительный просмотр заказа</message>
+
+  <message id="Wt.Auth.login-form-info">
+  </message>
+
+  <!-- Emails -->
+
+  <message id="Wt.Auth.confirmmail.subject">Email confirmation</message>
+
+  <message id="Wt.Auth.confirmmail.body">
+  </message>
+
+  <message id="Wt.Auth.confirmmail.htmlbody">
+  </message>
+
+  <message id="Wt.Auth.lostpasswordmail.subject">Lost password instructions</message>
+
+  <message id="Wt.Auth.lostpasswordmail.body">
+  </message>
+
+  <message id="Wt.Auth.lostpasswordmail.htmlbody">
+  </message>
+  <!--Меню-->
+	<message id="introduction">Личный кабинет</message>
+	<message id="operator">Ваш оператор</message>
+	<message id="reports">Отчеты</message>
+	<message id="information">Сервис</message>
+	<message id="news">Акции и новости</message>
+	<message id="mutual">Взаиморасчеты</message>
+	<message id="order_journal">Журнал заказов и отгрузок</message>
+	<message id="dept_structure">Структура долга</message>
+	<message id="sales">Продажи номенклатуры</message>
+	<message id="services">Адреса сервисных центров</message>
+	<message id="whatsnew">Что нового</message>
+	<message id="loadexcel">Загрузка файла из Excel</message>
+	<message id="orders">Заказы</message>
+	<message id="current.orders"></message>
+	<message id="private">Персональные данные</message>
+	<message id="terminal">Терминал</message>
+	<message id="priceEditor">Редактор цен покупателя</message>
+	<message id="loadPrice">Загрузить цены покупателя</message>
+	<message id="setpassword">Установить пароль менеджера</message>
+	<message id="catalogPad">Каталог покупателя</message>
+	<message id="user">Пользователь</message>
+
+	<message id="messages">Сообщения</message>
+	<message id="logout"><a href="javascript: void(0)">Выход <ins class="i"></ins></a></message>
+	<message id="exit">Выход</message>
+	<message id="shop">Перейти в каталог</message>
+	<message id="shop_sub_str">для составления заказа</message>
+	<message id="catalog.header.1">Код по каталогу</message>
+	<message id="catalog.header.2">Доп. инф-я</message>
+	<message id="catalog.header.3">Описание <br/>товара"</message>
+	<message id="catalog.header.4">Упак-ка <br/>Коробка</message>
+	<message id="catalog.header.5">Цена в руб.</message>
+	<message id="catalog.header.6">Заказ по шт.</message>
+	
+	<message id="wt">Система личных кабинетов.</message>
+	<message id="portal.news">Новости.</message>
+	<message id="portal.mutual">Взаиморасчеты.</message>
+	<message id="portal.order_journal">Журнал заказов и отгрузок.</message>
+	<message id="portal.dept_structure">Отчет по труктура долга</message>
+	<message id="portal.sales">Отчет по продажам номенклатуры</message>
+	<message id="portal.services"><h1>Адреса сервисных центров.</h1></message>
+	<message id="portal.whatsnew"><h1>Последние изменения в программе</h1></message>
+	<message id="portal.loadexcel">Загрузка из Excel.</message>
+	<message id="portal.news">Новости.</message>
+	<message id="portal.current_order">Текущий заказ !</message>
+	<message id="portal.orders.journal">Журнал заказов</message>
+	<message id="portal.messages">Сообщения</message>
+	<message id="portal.callback">Обратная связь</message>
+	<message id="portal.orders.import">Импорт заказа</message>
+
+	<message id="FIT">FIT</message>
+	<message id="KF">КФ</message>
+	<message id="admin">Админ</message>
+	<message id="loadgoods">Загрузка номенклатуры и цен.</message>
+	<message id="loadprice">Загрузка общих цен.</message>
+	<message id="loadpersonalprice">Загрузка персональных цен.</message>
+	<message id="loadcontractor">Загрузка контрагентов.</message>
+
+	<message id="userinfo.change"><a href="javascript: void(0)"> <ins class="i"></ins> Изменить</a></message>
+	<!--<message id="userinfo.change">Изменить</message>-->
+	<message id="profile.form">Личные данные пользователя</message>
+	<message id="profile.name">Имя</message>
+	<message id="profile.email">E-mail</message>
+	<message id="profile.country">Страна</message>
+	<message id="profile.city">Город</message>
+	<message id="profile.remarks">Комментарий</message>
+	<message id="profile.fullname">Полное наименование</message>
+	<message id="profile.phones">Телефоны</message>
+	<message id="profile.addres">Адрес факт.</message>
+	<message id="profile.choosecountry">Выберете страну</message>
+
+	<message id="russia">Россия</message>
+	<message id="moskow">Москва</message>
+	<message id="spb">Санкт-Петербург</message>
+	<message id="khabarovsk">Хабаровск</message>
+	<message id="novosibirsk">Новосибирск</message>
+	<message id="ekaterinburg">Екатеринбург</message>
+	<message id="stavropol">Ставрополь</message>
+	<message id="pyatigorsk">Патигорск</message>
+
+	<message id="ukraina">Украина</message>
+	<message id="kiev">Киев</message>
+	<message id="harkov">Харьков</message>
+	<message id="odesa">Одеса</message>
+	<message id="dnepropetrovsk">Днепропетровск</message>
+	<message id="doneck">Донецк</message>
+
+	<message id="kazahstan">Казахстан</message>
+	<message id="almaata">Алма-Ата</message>
+	<message id="astana">Астана</message>
+	<message id="shimkent">Шимкент</message>
+	<message id="karaganda">Караганда</message>
+	
+	<message id="submit">Сохранить</message>
+	<message id="save">Сохранить</message>
+	<message id="ok">Ok</message>
+	<message id="cancel">Отмена</message>
+	<message id="update">Обновить</message>
+	<message id="modified">Изменен</message>
+	<message id="modify">Изменить</message>
+	<message id="paydate">Дата оплаты: </message>
+	<message id="print">печать</message>
+	
+	<!--Reports-->
+	<message id="reports.mutual.header"><h1>Взаиморасчеты</h1></message>
+	<message id="reports.deptstructure.header"><h1>Структура долга</h1></message>
+	<message id="reports.orders.header"><h1>Журнал заказов и отгрузок</h1></message>
+	<message id="reports.goodssales.header"><h1>Продажи номенклатуры</h1></message>
+	<message id="reports.orderdetails.header"><h1>Предварительный просмотр заказа № {1}</h1></message>
+	<message id="reports.orderjournal.header"><h1>Журнал заказов</h1></message>
+	<message id="set.address.title">Укажите адреса доставок</message>
+	<message id="reports.updatebtn.footer"><p>*Чтоб посмотреть свежие данные на текущий момент, <br/> рекомендуется нажать кнопку "Обновить данные"</p></message>
+	<message id="reports.begindate">Показать журнал от:</message>
+	<message id="reports.enddate">по:</message>
+	<message id="reports.filtered">Фильтровать</message>
+	<message id="reports.mutual.header.coll1">Менеджер / дата оплаты / контрагент / документ</message>
+	<message id="reports.mutual.header.coll2">Сумма нач. остатка, Руб</message>
+	<message id="reports.mutual.header.coll3">Сумма прихода, Руб</message>
+	<message id="reports.mutual.header.coll4">Сумма расхода, Руб</message>
+	<message id="reports.mutual.header.coll5">Сумма кон. остатка, Руб</message>
+
+	<message id="reports.orders.header.coll1">Статус заказа</message>
+	<message id="reports.orders.header.coll2">Номер заказа</message>
+	<message id="reports.orders.header.coll3">Сумма неотгр.</message>
+	<message id="reports.orders.header.coll4">Комментарий</message>
+	<message id="reports.orders.header.coll5">Дата</message>
+	<message id="reports.orders.header.coll6">Реализация</message>
+	<message id="reports.orders.header.coll7">Сумма реализации</message>
+
+
+	<message id="orders.journal.header.coll1"></message>
+	<message id="orders.journal.header.coll2"></message>
+	<message id="orders.journal.header.coll3">Дата</message>
+	<message id="orders.journal.header.coll4">Номер</message>
+	<message id="orders.journal.header.coll5">Комментарий</message>
+	<message id="orders.journal.header.coll6">Сумма</message>
+	<message id="orders.journal.header.coll7">Адрес</message>
+	<message id="orders.journal.header.coll8">Автор документа</message>
+	<message id="orders.journal.header.coll9">Изм.</message>
+	<message id="orders.journal.header.coll10">Уд.</message>
+	<message id="orders.journal.header.coll11">Печ.</message>
+	<message id="order.journal.input.number">Введите собственный номер заказа</message>
+	<message id="order.journal.input.number.header">Изменение номера заказа</message>
+
+
+	<message id="reports.deptstucture.header.coll1">Менеджер / дата оплаты / контрагент / документ</message>
+	<message id="reports.deptstucture.header.coll2">Просрочено<br/><span class="cur">Руб</span> Дн</message>
+	<message id="reports.deptstucture.header.coll3">Ожидается<br/><span class="cur">Руб</span> Дн</message>
+	<message id="reports.deptstucture.header.coll4">Всего<br/>Руб</message>
+
+
+	<message id="docdetail.realization.header.coll1">№</message>
+	<message id="docdetail.realization.header.coll2">Код</message>
+	<message id="docdetail.realization.header.coll3">Наименование</message>
+	<message id="docdetail.realization.header.coll4">Количество</message>
+	<message id="docdetail.realization.header.coll5">Цена</message>
+	<message id="docdetail.realization.header.coll6">Сумма</message>
+
+
+	<message id="order.details.header.coll0">№</message>
+	<message id="order.details.header.coll1">Фото</message>
+	<message id="order.details.header.coll2">Код по каталогу</message>
+	<message id="order.details.header.coll3">Доп. инфо.</message>
+	<message id="order.details.header.coll4">Описание товара</message>
+	<message id="order.details.header.coll5">Упа-ка / Коробок</message>
+	<message id="order.details.header.coll6">Цена в руб.</message>
+	<message id="order.details.header.coll7">Заказ по шт.</message>
+	<message id="order.details.header.coll8">Стоимость</message>
+	<message id="order.details.comments"><h2>Комменатрий</h2></message>
+	<message id="order.details.held.btn">Отправить заказ</message>
+	<message id="order.details.save.btn">Сохранить заказ</message>
+	<message id="order.details.buy.btn">Купить</message>
+	<message id="order.details.clear.btn">Сброс</message>
+	<message id="order.details.continue.btn">Продолжить заказ</message>
+
+	<message id="order.details.held.message">Заказ поставлен в очередь на обработку.</message>
+	<message id="order.details.setaddress.message">Необходимо указать адрес доставик !</message>
+	<message id="order.details.save.message"><strong>Заказ успешно сохранен!</strong><br/>Чтобы отправить <strong>заказ оператору,</strong><br/>необходимо нажать кнопку отправить.</message>
+
+
+	<message id="callback">Обратная связь</message>
+	<message id="order.details">Текущий заказ</message>
+	
+	<message id="form.messages.label.sendto"><b>Кому:</b></message>
+	<message id="form.messages.label.theme"><b>* Тема:</b></message>
+	<message id="form.messages.label.message"><b>* Сообщение:</b></message>
+	<message id="form.messages.label.attachment"><b>Приложение:</b></message>
+	<message id="form.messages.label.header"><h1>Отпрвить сообщение</h1></message>
+	<message id="form.messages.btn.send">Отправить</message>
+	<message id="form.messages.cmb.value.1">Оператору</message>
+	<message id="form.messages.cmb.value.2">Менеджеру</message>
+	<message id="form.messages.cmb.value.3">Администратору</message>
+	<message id="form.messages.begindate">Показать сообщения от:</message>
+	<message id="form.messages.enddate">по:</message>
+	<message id="form.messages.anchor.input">Входящие:</message>
+	<message id="form.messages.anchor.output">Исходящие:</message>
+	<message id="form.messages.label.message.1"><h2>Сообщения:</h2></message>
+	<message id="form.messages.header.coll1">Дата</message>
+	<message id="form.messages.header.coll2">Тема/Сообщение</message>
+	<message id="form.messages.header.coll3">Вложения</message>
+	<message id="form.messages.nomessage">Сообщений нет.</message>
+	<message id="form.messages.btn.close">Закрыть</message>
+
+	
+	<message id="Wt.WDate.Monday">Понедельник</message>
+	<message id="Wt.WDate.Tuesday">Вторник</message>
+	<message id="Wt.WDate.Wednesday">Среда</message>
+	<message id="Wt.WDate.Thursday">Четверг</message>
+	<message id="Wt.WDate.Friday">Пятница</message>
+	<message id="Wt.WDate.Saturday">Суббота</message>
+	<message id="Wt.WDate.Sunday">Воскресенье</message>
+	<message id="Wt.WDate.3.Mon">Пнд</message>
+	<message id="Wt.WDate.3.Tue">Втр</message>
+	<message id="Wt.WDate.3.Wed">Срд</message>
+	<message id="Wt.WDate.3.Thu">Чтв</message>
+	<message id="Wt.WDate.3.Fri">Птн</message>
+	<message id="Wt.WDate.3.Sat">Сбт</message>
+	<message id="Wt.WDate.3.Sun">Вск</message>
+	<message id="Wt.WDate.January">Январь</message>
+	<message id="Wt.WDate.February">Февраль</message>
+	<message id="Wt.WDate.March">Март</message>
+	<message id="Wt.WDate.April">Апрель</message>
+	<message id="Wt.WDate.May">Май</message>
+	<message id="Wt.WDate.June">Июнь</message>
+	<message id="Wt.WDate.July">Июль</message>
+	<message id="Wt.WDate.August">Август</message>
+	<message id="Wt.WDate.September">Сентябрь</message>
+	<message id="Wt.WDate.October">Октябрь</message>
+	<message id="Wt.WDate.November">Ноябрь</message>
+	<message id="Wt.WDate.December">Декабрь</message>
+	<message id="Wt.WDate.3.Jan">Яан</message>
+	<message id="Wt.WDate.3.Feb">Фев</message>
+	<message id="Wt.WDate.3.Mar">Мар</message>
+	<message id="Wt.WDate.3.Apr">Апр</message>
+	<message id="Wt.WDate.3.May">Май</message>
+	<message id="Wt.WDate.3.Jun">Инь</message>
+	<message id="Wt.WDate.3.Jul">Иль</message>
+	<message id="Wt.WDate.3.Aug">Авг</message>
+	<message id="Wt.WDate.3.Sep">Сен</message>
+	<message id="Wt.WDate.3.Oct">Окт</message>
+	<message id="Wt.WDate.3.Nov">Ноя</message>
+	<message id="Wt.WDate.3.Dec">Дек</message>
+	<message id="Wt.WDatePicker.Close">Закрыть</message>
+	<message id="Wt.WDateTime.LessThanASecond">меньше секунды</message>
+	<message id="Wt.WDateTime.second">одна секунда</message>
+	<message id="Wt.WDateTime.seconds">{1} секунд</message>
+	<message id="Wt.WDateTime.minute">одна минута</message>
+	<message id="Wt.WDateTime.minutes">{1} минут</message>
+	<message id="Wt.WDateTime.hour">один час</message>
+	<message id="Wt.WDateTime.hours">{1} часов</message>
+	<message id="Wt.WDateTime.day">один день</message>
+	<message id="Wt.WDateTime.days">{1} дней</message>
+	<message id="Wt.WDateTime.week">одна неделя</message>
+	<message id="Wt.WDateTime.weeks">{1} недель</message>
+	<message id="Wt.WDateTime.month">один месяц</message>
+	<message id="Wt.WDateTime.months">{1} месяцев</message>
+	<message id="Wt.WDateTime.year">один год</message>
+	<message id="Wt.WDateTime.years">{1} лет</message>
+	<message id="Wt.WDateTime.null">Null</message>
+	<message id="Wt.WDateValidator.DateTooEarly">The date must be after {1}</message>
+	<message id="Wt.WDateValidator.DateTooLate">The date must be before {1}</message>
+	<message id="Wt.WDateValidator.WrongDateRange">The date must be between {1} and {2}</message>
+	<message id="Wt.WDateValidator.WrongFormat">Must be a date in the format '{1}'</message>
+
+	<message id="import.order.splitter.string.1">(TAB)- Табуляция </message>
+	<message id="import.order.splitter.string.2">(;)- Точка с запятой </message>
+	<message id="import.order.splitter.string.3">(,)- Запятая </message>
+	<message id="import.order.splitter.string.4">(`)- Верхний апостров </message>
+	<message id="import.order.splitter.string.5">(~)- Тильда </message>
+
+	<message id="import.order.codepage.string.1">Windows 1251 </message>
+	<message id="import.order.codepage.string.2">UTF-8 </message>
+
+
+	<message id="import.order.button.select.file">Выберете файл</message>
+	<message id="import.order.button.select.nofile">Файл не выбран</message>
+	<message id="import.order.button.import">Имортировать заказ</message>
+	<message id="import.order.button.import_price">Импортировать цены</message>
+	<message id="import.order.anchor.instuction"><strong>Скачать подробную инструкцию в формате PDF</strong></message>
+
+	
+	
+	<message id="msg.file-too-large">Размер загружаемого файла {1} Кб. Максимально допустимый размер файла для загрузки {2} Кб.</message>
+	<message id="msg.ambiguous.select">Не однозначный выборб способа расчета цены !</message>
+	<message id="msg.notselected.valuetype">Не выбран тип расчета наценки.<br/><strong> Изменения Цены/Наценки выполнены не будут !</strong></message>
+	<message id="msg.images"><img height="450" width="320" src="/images/action/4287400_7.jpg" border="0" onclick="try{hs.expand(this,{src:'/images/action/fit_elektro_akcia_2013_1_kvartal_rub.jpg'});}catch(e){}" title="fit_elektro_akcia_2013_1_kvartal_rub.jpg" class="highslide"/></message>
+	
+</messages>
+
